@@ -1,3 +1,7 @@
 body{
     background:rgb(119, 96, 96);
 }
+div{
+    color: black;
+    font-size: large;
+}
