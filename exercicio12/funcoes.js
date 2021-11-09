@@ -1,7 +1,7 @@
 var agora = new Date();
 var ano = agora.getFullYear();
-var mes = agora.getMonth();
-var dia = agora.getDay();
+var mes = agora.getUTCMonth();
+var dia = agora.getUTCDay();
 var hora = agora.getHours();
 var minuto = agora.getMinutes();
 
