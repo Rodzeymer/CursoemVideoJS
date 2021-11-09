@@ -5,5 +5,5 @@ var dia = agora.getDay();
 var hora = agora.getHours();
 var minuto = agora.getMinutes();
 
-var res = window.document.querySelector('div#res')
-res.innerHTML = `<p>Sua velocidade atual é de <strong> ${vel}</strong> Km/h!!</p>`
+var ano = window.document.querySelector('div#ano')
+ano.innerHTML = `<p>O Ano atual é ${ano}</p>`;
