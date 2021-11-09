@@ -1,9 +1,9 @@
 var agora = new Date();
 var ano = agora.getFullYear();
 var mes = agora.getUTCMonth()+1;
-var dia = ("0" + 11).slice(-2);
+var dia = ("0" + agora.getDate()).slice(-2);
 var hora = agora.getHours();
-var minuto = agora.getMinutes();
+var minuto = ("0" + agora.getMinutes()).slice(-2);
 
 var anoHTML = window.document.querySelector('div#ano');
 anoHTML.innerHTML = `<p>O Ano atual é ${ano}</p>`;
