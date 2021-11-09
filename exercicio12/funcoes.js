@@ -15,10 +15,10 @@ var diaHTML = window.document.querySelector('div#dia');
 diaHTML.innerHTML = `<p>O Dia atual é ${dia}</p>`;
 
 var horaHTML = window.document.querySelector('div#hora')
-horaHTML.innerHTML = `<p>O Ano atual é ${hora}</p>`;
+horaHTML.innerHTML = `<p>A Hora atual é ${hora}</p>`;
 
 var minutoHTML = window.document.querySelector('div#minuto')
-minutoHTML.innerHTML = `<p>O Ano atual é ${minuto}</p>`;
+minutoHTML.innerHTML = `<p>O Minuto atual é ${minuto}</p>`;
 
 var completo = window.document.querySelector('div#completo')
 completo.innerHTML = `<p>Data Completa: ${dia}/${mes}/${ano} às ${hora}:${minuto}</p>`;
