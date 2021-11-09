@@ -21,5 +21,5 @@ var minutoHTML = window.document.querySelector('div#minuto')
 minutoHTML.innerHTML = `<p>O Minuto atual é ${minuto}</p>`;
 
 var completo = window.document.querySelector('div#completo')
-completo.innerHTML = `<p>Data Completa: ${dia}/${mes}/${ano} às ${hora}:${minuto} pril</p>`;
+completo.innerHTML = `<p>Data Completa: ${dia}/${mes}/${ano} às ${hora}:${minuto}</p>`;
 
