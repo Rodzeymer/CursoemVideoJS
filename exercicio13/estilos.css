@@ -1,0 +1,23 @@
+body{
+    background: #e0b939;
+}
+
+#saudacao{
+    color:white;
+    
+}
+
+.quadro{
+    position:absolute;
+    top:50px;
+    left: 50%;
+    background: white;
+    width:400px;
+    height: 300px;
+    box-shadow: 5px 5px 2px 2px rgba(0,0,0,0.2);
+    color: black;
+}
+
+.paisagem{
+    border-radius: 50%;
+}
