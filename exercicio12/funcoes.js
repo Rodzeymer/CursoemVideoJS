@@ -5,6 +5,8 @@ var dia = ("0" + agora.getDate()).slice(-2);
 var hora = agora.getHours();
 var minuto = ("0" + agora.getMinutes()).slice(-2);
 
+var saudacao = window.document.querySelector('div#saudacao');
+
 var anoHTML = window.document.querySelector('div#ano');
 anoHTML.innerHTML = `<p>O Ano atual é ${ano}</p>`;
 
@@ -22,4 +24,12 @@ minutoHTML.innerHTML = `<p>O Minuto atual é ${minuto}</p>`;
 
 var completo = window.document.querySelector('div#completo')
 completo.innerHTML = `<p>Data Completa: ${dia}/${mes}/${ano} às ${hora}:${minuto}</p>`;
+
+if(hora < 12){
+    saudacao.innerHTML = `<h1> BOM DIA! </h1>`;    
+} else if (hora <= 18){
+    saudacao.innerHTML = `<h1> BOA TARDE! </h1>`;    
+} else{
+    saudacao.innerHTML = `<h1> BOA NOITE! </h1>`;    
+}
 
