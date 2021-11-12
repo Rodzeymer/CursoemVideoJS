@@ -10,8 +10,12 @@ header{
 
 img{
     border-radius: 50%;
-    position: relative;
-    left: 50%;
+    width:200px;
+    height: auto;
+}
+
+div{
+    text-align: center;
 }
 
 section{
