@@ -10,8 +10,8 @@ header{
 
 img{
     border-radius: 50%;
-    position: absolute;
-    left:10px;
+    position: relative;
+    left: 50%;
 }
 
 section{
