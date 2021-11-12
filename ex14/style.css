@@ -1,9 +1,24 @@
 body{
-    background: #3578af;
-    color: white;
+    background: rgb(54, 160, 221);
+    font: normal 15pt Arial;
 }
 
-div{
-    background: whitesmoke;
-    color: black;
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.333);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
 }
