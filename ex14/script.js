@@ -4,11 +4,11 @@ function verificar(){
     var formularioAno = document.querySelector('input#txtano');
     var resultado = document.querySelector('div#resultado');
     
-    if(formularioAno.nodeValue.length == 0 || formularioAno.nodeValue > ano){
+    if(formularioAno.value.length == 0 || formularioAno.value > ano){
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     } else{
         var formularioSexo = document.getElementsByName('radsex')
-        var idade = ano - Number(formularioAno.nodeValue)
+        var idade = ano - Number(formularioAno.value)
         resultado.innerHTML = `Idade calculada: ${idade} anos`
     }
 }
