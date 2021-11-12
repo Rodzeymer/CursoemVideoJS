@@ -10,7 +10,7 @@ function verificar(){
         var formularioSexo = document.getElementsByName('radsex')
         var idade = ano - Number(formularioAno.value)
         //resultado.innerHTML = `Idade calculada: ${idade} anos`
-        var genero ="";
+        var genero =" ";
         if (formularioSexo[0].checked){
             genero = "Homem";
         } else if (formularioSexo[1].checked){
@@ -18,5 +18,6 @@ function verificar(){
         } else if (formularioSexo[2].checked){
             genero = "Não-Binário";
         }
-        resultado.innerHTML = ´Detectamos ${genero} com ${idade} idade´;
+        resultado.innerHTML = `Detectamos ${genero} com ${idade} idade`
+    }
 }
