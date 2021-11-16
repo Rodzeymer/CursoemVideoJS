@@ -15,13 +15,13 @@ function verificar(){
         img.setAttribute('id', ', foto')
         if (formularioSexo[0].checked){
             genero = "Homem";
-            if(idade >=0 && idade< 10){
+            if(idade >= 0 && idade < 10){
                 //Criança
                 img.setAttribute("src = ex14/img/menino-jovem.jpeg");
-            }else if(idade< 21){
+            }else if(idade < 21){
                 //Jovem
                 img.setAttribute("src = ex14/img/homem-jovem.jpeg");
-            }else if(idade< 50){
+            }else if(idade < 50){
                 //Adulto
                 img.setAttribute("src = ex14/img/homem-adulto.jpeg");
             }else{
