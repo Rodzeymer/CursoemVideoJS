@@ -43,8 +43,6 @@ function verificar(){
                 //Idoso
                 img.setAttribute("src = ex14/img/mulher-idoso.jpeg");
             }
-        } else if (formularioSexo[2].checked){
-            genero = "Não-Binário";
         }
         resultado.style.textAlign = 'center';
         resultado.innerHTML = `Detectamos ${genero} com ${idade} idade`;
