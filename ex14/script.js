@@ -47,7 +47,8 @@ function verificar(){
             genero = "Não-Binário";
         }
         resultado.style.textAlign = 'center';
-        resultado.innerHTML = `Detectamos ${genero} com ${idade} idade`
+        resultado.innerHTML = `Detectamos ${genero} com ${idade} idade`;
+        resultado.appendChild(img);
 
     }
 }
