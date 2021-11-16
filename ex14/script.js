@@ -9,6 +9,7 @@ function verificar(){
     } else{
         var formularioSexo = document.getElementsByName('radsex')
         var idade = ano - Number(formularioAno.value)
+        console.log(formularioAno.value)
         //resultado.innerHTML = `Idade calculada: ${idade} anos`
         var genero =""
         var img = document.createElement('img')
