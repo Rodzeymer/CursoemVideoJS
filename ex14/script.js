@@ -13,7 +13,7 @@ function verificar(){
         //resultado.innerHTML = `Idade calculada: ${idade} anos`
         var genero =""
         var img = document.createElement('img')
-        img.setAttribute('id', ', foto')
+        img.setAttribute('id', 'foto')
         if (formularioSexo[0].checked){
             genero = "Homem"
             if(idade >= 0 && idade < 10){
