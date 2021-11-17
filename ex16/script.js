@@ -4,15 +4,14 @@ function contar(){
     var passo = document.getElementById("txtPasso");
     var resultado = document.getElementById("resultado")
 
-    var numeroInicio = Number(inicio.value)
-    var numeroFim = Number(fim.value)
-    var numeroPasso = Number(passo.value)
-
-    if (numeroInicio.lenght == 0 || numeroFim.lenght == 0 || numeroPasso.lenght == 0){
+    if (inicio.value == '' || fim.value.lenght == '' || passo.value.lenght == ''){
         resultado.innerHTML = `\u{2755} IMPOSSÍVEL CONTAR \u{2755}`
         window.alert('[ERRO] Faltam dados!')
     } else {
-        resultado.innerHTML = 'Contando: '   
+        resultado.innerHTML = 'Contando: '
+        var numeroInicio = Number(inicio.value)
+        var numeroFim = Number(fim.value)
+        var numeroPasso = Number(passo.value)
         
         if(numeroInicio<numeroFim){
             for (let c = numeroInicio; c <= numeroFim; c+=numeroPasso) {
