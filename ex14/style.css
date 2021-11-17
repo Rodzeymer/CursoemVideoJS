@@ -24,6 +24,7 @@ footer{
     font-style: italic;
 }
 img{
-    width: 100px;
+    position: relative;
+    width: 200px;
     height: auto;
 }
