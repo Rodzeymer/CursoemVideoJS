@@ -16,7 +16,7 @@ function contar(){
             for (let c = numeroInicio; c <= numeroFim; c+=numeroPasso) {
             resultado.innerHTML +=`${c} \u{1f449},  `}
         } else {
-            for (let c = numeroInicio; c <= numeroFim; c-=numeroPasso) {
+            for (let c = numeroInicio; c >= numeroFim; c-=numeroPasso) {
                 resultado.innerHTML +=`${c} \u{1f449},  `
             }               
         }
