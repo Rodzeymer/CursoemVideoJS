@@ -39,7 +39,7 @@ function verificar(){
                 img.setAttribute("src", "ex14/img/mulher-jovem.jpeg")
             }else if(idade< 50){
                 //Adulto
-                img.setAttribute("src", "ex14/img/mulher-adulto.jpeg")
+                img.setAttribute("src", "ex14/img/mulher-adulta.jpeg")
             }else{
                 //Idoso
                 img.setAttribute("src", "ex14/img/mulher-idosa.jpeg")
