@@ -4,10 +4,10 @@ function contar(){
     var passo = document.getElementById("txtPasso");
     var resultado = document.getElementById("resultado")
 
-    if(inicio.value.lenght == 0 || fim.value.lenght == 0|| passo.value.lenght == 0){
-        resultado.innerHTML=`\u{2755} IMPOSSÍVEL CONTAR \u{2755}`
+    if (inicio.value.lenght == 0 || fim.value.lenght == 0 || passo.value.lenght == 0){
+        resultado.innerHTML = `\u{2755} IMPOSSÍVEL CONTAR \u{2755}`
         window.alert('[ERRO] Faltam dados!')
-    } else{
+    } else {
         resultado.innerHTML = 'Contando: '
         var numeroInicio = Number(inicio.value)
         var numeroFim = Number(fim.value)
