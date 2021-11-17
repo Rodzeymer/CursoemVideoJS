@@ -25,6 +25,7 @@ footer{
 }
 img{
     position: relative;
+    padding: 10px;
     width: 200px;
     height: auto;
 }
