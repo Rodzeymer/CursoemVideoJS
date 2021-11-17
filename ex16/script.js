@@ -4,7 +4,7 @@ function contar(){
     var passo = document.getElementById("txtPasso");
     var resultado = document.getElementById("resultado")
 
-    if (inicio.value == '' || fim.value.lenght == '' || passo.value.lenght == ''){
+    if (inicio.value == '' || fim.value == '' || passo.value == ''){
         resultado.innerHTML = `\u{2755} IMPOSSÍVEL CONTAR \u{2755}`
         window.alert('[ERRO] Faltam dados!')
     } else {
