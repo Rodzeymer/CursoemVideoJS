@@ -13,7 +13,7 @@ function contar(){
         var numeroPasso = Number(passo.value)
 
         for (let c = numeroInicio; c <= numeroFim; c+=numeroPasso) {
-            resultado.innerHTML +=`${c} `
+            resultado.innerHTML +=`${c} \u{1f603},  `
             
         }
     }
