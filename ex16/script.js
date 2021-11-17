@@ -13,8 +13,9 @@ function contar(){
         var numeroPasso = Number(passo.value)
 
         for (let c = numeroInicio; c <= numeroFim; c+=numeroPasso) {
-            resultado.innerHTML +=`${c} \u{1f603},  `
+            resultado.innerHTML +=`${c} \u{1f449},  `
             
         }
+        resultado.innerHTML+=` \u{1f3c1}`
     }
 }
