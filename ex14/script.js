@@ -42,7 +42,7 @@ function verificar(){
                 img.setAttribute("src", "ex14/img/mulher-adulto.jpeg")
             }else{
                 //Idoso
-                img.setAttribute("src", "ex14/img/mulher-idoso.jpeg")
+                img.setAttribute("src", "ex14/img/mulher-idosa.jpeg")
             }
         }
         resultado.style.textAlign = 'center';
