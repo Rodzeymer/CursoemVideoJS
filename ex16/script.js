@@ -11,10 +11,14 @@ function contar(){
         var numeroInicio = Number(inicio.value)
         var numeroFim = Number(fim.value)
         var numeroPasso = Number(passo.value)
-
+        
+        if(numeroInicio<numeroFim){
         for (let c = numeroInicio; c <= numeroFim; c+=numeroPasso) {
-            resultado.innerHTML +=`${c} \u{1f449},  `
-            
+            resultado.innerHTML +=`${c} \u{1f449},  `}
+        } else {
+            for (let c = numeroFim; c <= numeroInicio; c+=numeroPasso) {
+                resultado.innerHTML +=`${c} \u{1f449},  `
+            }               
         }
         resultado.innerHTML+=` \u{1f3c1}`
     }
