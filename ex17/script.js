@@ -7,7 +7,7 @@ function tabuada(){
             var tabuada1 = document.createElement('p');
             tabuada[index].innerHTML = numero * index;
             var resultado = document.getElementById("resultado")
-    resultado = document.innerHTML(tabuada[index])
+            resultado = document.innerHTML(tabuada[index])
             
         }
     }
