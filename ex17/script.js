@@ -5,7 +5,9 @@ function tabuada(){
     }else{
         for (let index = 0; index <= 10; index++) {
             var tabuada1 = document.createElement('p');
-            tabuada1.innerHTML = numero * index;
+            tabuada[index].innerHTML = numero * index;
+            var resultado = document.getElementById("resultado")
+    resultado = document.innerHTML(tabuada[index])
             
         }
     }
