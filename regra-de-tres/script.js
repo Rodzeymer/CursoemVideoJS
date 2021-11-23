@@ -1,4 +1,4 @@
-function tabuada(){
+function calcular(){
     window.alert("VAMOS CALCULAR!!!!")
 
     let numeroA = document.getElementById('esquerdaSuperior')
