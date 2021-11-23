@@ -4,6 +4,10 @@ function tabuada(){
     if (valor==""){
         alert("Insira um número inteiro!")
     } else{
-        alert(`O número digitado foi ${valor}`)
+        for (let index = 0; index < 11; index++) {
+            calculo[index] = valor * array[index];
+            alert(calculo[index])
+            
+        }
     }
 }
