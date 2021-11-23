@@ -11,6 +11,8 @@ function calcular(){
 
     if(valorA == '' || valorB == '' || valorC == ''){
         window.alert("Digite números!")
+    } else {
+        window.alert(´O número A foi ${valorA}, o número B foi ${valorB}, o número C foi ${valorC}´)
     }
 
 }
