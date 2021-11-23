@@ -5,7 +5,7 @@ function tabuada(){
         alert("Insira um número inteiro!")
     } else{
         for (let index = 0; index < 11; index++) {
-            var calculo = valor * array;
+            var calculo = valor * index;
             alert(calculo)
             
         }
