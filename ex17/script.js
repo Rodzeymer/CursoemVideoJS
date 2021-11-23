@@ -4,6 +4,8 @@ function tabuada(){
     if (valor==""){
         alert("Insira um número inteiro!")
     } else{
+        var numDigitado = document.createElement('p')
+        numDigitado.document.innerHTML(valor.value)
         for (let index = 0; index < 11; index++) {
             var calculo = valor * index;
             var resultado = document.createElement('p')
