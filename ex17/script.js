@@ -2,7 +2,7 @@ function tabuada(){
     let numero = document.getElementById('numTabuada')
     let selecaoTabuada = document.getElementById('seltab')
     
-    if(numero.value.lenght == 0){
+    if(numero == ''){
         window.alert('Porfavor digite um numero')
     } else {
         
