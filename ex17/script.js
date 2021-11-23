@@ -11,6 +11,7 @@ function tabuada(){
             var resultado = document.createElement('p')
             resultado.setAttribute('id', 'resultado')
             resultado.innerHTML = calculo
+            resultado.appendChild(p)
             
         }
     }
