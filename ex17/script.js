@@ -1,18 +1,11 @@
 function tabuada(){
-    var numero = document.getElementById("tabuada")
-    var valor = Number(numero.value)
-    if (valor==""){
-        alert("Insira um número inteiro!")
-    } else{
-        var numDigitado = document.createElement('p')
-        numDigitado.innerHTML = valor
-        for (let index = 0; index < 11; index++) {
-            var calculo = valor * index;
-            var resultado = document.createElement('p')
-            resultado.setAttribute('id', 'resultado')
-            resultado.innerHTML = calculo
-            resultado.appendChild(p)
-            
-        }
+    let numero = document.getElementById('numTabuada')
+    let selecaoTabuada = document.getElementById('seltab')
+    
+    if(numero.value.lenght == 0){
+        window.alert('Porfavor digite um numero')
+    } else {
+        
+        let valor = Number(numero.value)
     }
 }
