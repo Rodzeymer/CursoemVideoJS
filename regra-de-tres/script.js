@@ -14,7 +14,7 @@ function calcular(){
     } else {
         let resultado = document.createElement('p')
         resultado.setAttribute('id', 'resultado')
-        resultado.innerHTML = `Resultado = ${(valorC*valorB)/valorA}`
+        resultado.innerHTML = `Resultado = (C x B) / A /nResultado = ${(valorC*valorB)/valorA}`
         let d = document.getElementById('resultado')
         d.appendChild(resultado)
         window.alert(`Resultado = ${(valorC*valorB)/valorA}`)
