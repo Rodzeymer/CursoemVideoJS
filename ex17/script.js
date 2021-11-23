@@ -7,7 +7,7 @@ function tabuada(){
         for (let index = 0; index < 11; index++) {
             var calculo = valor * index;
             var resultado = document.createElement('p')
-            package.setAttribute('id', 'resultado')
+            resultado.setAttribute('id', 'resultado')
             resultado.innerHTML = (calculo)
             
         }
