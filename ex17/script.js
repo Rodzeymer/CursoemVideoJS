@@ -7,6 +7,7 @@ function tabuada(){
         alert('Porfavor digite um numero')
     } else {
         let c = 1
+        selecaoTabuada.innerHTML = ''
         while (c<=10){
             let item = document.createElement('option')
             item.text = `${valor} x ${c} = ${valor * c}`
