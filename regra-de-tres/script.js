@@ -1,20 +1,16 @@
 function tabuada(){
-    let numero = document.getElementById('numTabuada')
-    let selecaoTabuada = document.getElementById('seltab')
-    let valor = Number(numero.value)
-    
-    if(valor == ''){
-        alert('Por favor, digite um numero')
-    } else {
-        let c = 1
-        selecaoTabuada.innerHTML = ''
-        while (c<=10){
-            let item = document.createElement('option')
-            item.text = `${valor} x ${c} = ${valor * c}`
-            item.value = `selecaoTabuada${c}`
-            selecaoTabuada.appendChild(item)
-            c++
-        }
-        
+    window.alert("VAMOS CALCULAR!!!!")
+
+    let numeroA = document.getElementById('esquerdaSuperior')
+    let numeroB = document.getElementById('direitaSuperior')
+    let numeroC = document.getElementById('esquerdaInferior')
+
+    let valorA = numeroA.value
+    let valorB = numeroB.value
+    let valorC = numeroC.value
+
+    if(valorA == '' || valorB == '' || valorC == ''){
+        window.alert("Digite números!")
     }
+
 }
