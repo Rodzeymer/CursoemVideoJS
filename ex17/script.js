@@ -11,6 +11,7 @@ function tabuada(){
         while (c<=10){
             let item = document.createElement('option')
             item.text = `${valor} x ${c} = ${valor * c}`
+            item.value = `selecaoTabuada${c}`
             selecaoTabuada.appendChild(item)
             c++
         }
