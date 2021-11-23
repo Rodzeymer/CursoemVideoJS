@@ -11,6 +11,7 @@ function tabuada(){
             let item = document.createElement('option')
             item.text = `${valor} x ${c} = ${valor * c}`
             selecaoTabuada.appendChild(item)
+            c++
         }
         
     }
