@@ -13,7 +13,8 @@ function calcular(){
         window.alert("Digite números!")
     } else {
         let resultado = document.createElement('p')
-        resultado.innerHTML = `Resultado = ${(valorC*valorB)/valorA}`
+        resultado.innerHTML = `Resultado = ${(valorC*valorB)/valorA}`        
+        resultado.appendChild(resultado)
         window.alert(`Resultado = ${(valorC*valorB)/valorA}`)
     }
 
