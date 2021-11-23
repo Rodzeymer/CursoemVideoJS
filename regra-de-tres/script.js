@@ -12,7 +12,9 @@ function calcular(){
     if(valorA == '' || valorB == '' || valorC == ''){
         window.alert("Digite números!")
     } else {
-        window.alert(`O número A foi ${valorA}, o número B foi ${valorB}, o número C foi ${valorC}`)
+        let resultado = document.createElement('p')
+        resultado.innerHTML = `Resultado = ${(valorC*valorB)/valorA}`
+        window.alert(`Resultado = ${(valorC*valorB)/valorA}`)
     }
 
 }
