@@ -8,7 +8,7 @@ function tabuada(){
             var calculo = valor * index;
             var resultado = document.createElement('p')
             resultado.setAttribute('id', 'resultado')
-            resultado.innerHTML = (calculo)
+            resultado.innerHTML = (calculo.value)
             
         }
     }
