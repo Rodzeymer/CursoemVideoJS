@@ -6,7 +6,12 @@ function tabuada(){
     if(valor == ''){
         alert('Porfavor digite um numero')
     } else {
-        
+        let c = 1
+        while (c<=10){
+            let item = document.createElement('option')
+            item.text = `${valor} x ${c} = ${valor * c}`
+            selecaoTabuada.appendChild(item)
+        }
         
     }
 }
