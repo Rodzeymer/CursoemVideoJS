@@ -4,7 +4,7 @@ function tabuada(){
     let valor = Number(numero.value)
     
     if(valor == ''){
-        alert('Porfavor digite um numero')
+        alert('Por favor, digite um numero')
     } else {
         let c = 1
         selecaoTabuada.innerHTML = ''
