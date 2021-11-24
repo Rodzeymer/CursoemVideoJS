@@ -1,10 +1,10 @@
 var listaNum = []
 function adicionar(){
     let numNovo = window.document.getElementById('numeroNovo').value
-    if(numNovo in listaNum){
-        window.alert("Número inválido ou já existente")
+    if(numNovo.indexOf(numNovo) == -1){
+        listaNum.push(numNovo)
     } else {
-    listaNum.push(numNovo)
-    window.alert(`${listaNum}`)
+        window.alert("Número inválido ou já existente")
     }
+    window.alert(`${listaNum}`)
 }
