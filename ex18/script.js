@@ -5,6 +5,7 @@ function adicionar(){
         listaNum.push(numNovo)
         window.alert(`Foi adicionado o ${numNovo} na lista`)
         let item = document.createElement('option')
+            item.text = numNovo
             item.value = `listaNum${numNovo}`
             numerosAdc.appendChild(item)
     } else {
