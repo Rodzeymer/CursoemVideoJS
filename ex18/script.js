@@ -6,7 +6,7 @@ function adicionar(){
         window.alert(`Foi adicionado o ${numNovo} na lista`)
         let item = document.createElement('option')
             item.value = `listaNum${numNovo}`
-            listaNum.appendChild(item)
+            numerosAdc.appendChild(item)
     } else {
         window.alert('O número é inválido ou já está na lista!')
         }    
