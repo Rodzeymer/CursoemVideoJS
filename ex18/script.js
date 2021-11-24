@@ -4,6 +4,9 @@ function adicionar(){
     if (listaNum == [] || listaNum.indexOf(numNovo) == -1){
         listaNum.push(numNovo)
         window.alert(`Foi adicionado o ${numNovo} na lista`)
+        let item = document.createElement('option')
+            item.value = `listaNum${numNovo}`
+            listaNum.appendChild(item)
     } else {
         window.alert('O número é inválido ou já está na lista!')
         }    
