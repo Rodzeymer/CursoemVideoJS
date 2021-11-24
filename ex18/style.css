@@ -17,6 +17,10 @@ section{
     box-shadow: 3px 3px 10px rgba(0,0,0,0.333);
 }
 
+select#numerosAdc{
+    width: 150px;
+}
+
 footer{
     padding: 10px;
     color: white;
