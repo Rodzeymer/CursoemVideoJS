@@ -18,13 +18,14 @@ function Adicionar(){
 function Calcular(){
     var listaOrdem = listaNum.sort()
     var listaSoma = 0
-    for (let index = 0; index < listaOrdem.length; index++) {
-        listaSoma += listaOrdem[index]        
-    }
+    
     var quantidade = (listaOrdem.length)
     var menorNum = listaOrdem[0]
     var maiorNum = listaOrdem[quantidade-1].value
     var mediaNum = listaSoma/quantidade
+    for (let index = 0; index < listaOrdem.length; index++) {
+        listaSoma = listaSoma + listaOrdem[index]        
+    }
     console.log(`Quantidade de Itens adicionados ${quantidade}`)
     console.log(`A lista é ${listaOrdem}`)
     console.log(`Maior Número da sequencia ${maiorNum}`)
