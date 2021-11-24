@@ -26,6 +26,7 @@ function Calcular(){
     var maiorNum = listaOrdem[quantidade-1].value
     var mediaNum = listaSoma/quantidade
     console.log(`Quantidade de Itens adicionados ${quantidade}`)
+    console.log(`A lista é ${listaOrdem}`)
     console.log(`Maior Número da sequencia ${maiorNum}`)
     console.log(`Menor Número da sequencia ${menorNum}`)
     console.log(`A soma dos itens adicionados é ${listaSoma}`)
