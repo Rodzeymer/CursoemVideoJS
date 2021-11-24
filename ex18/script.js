@@ -16,6 +16,9 @@ function Adicionar(){
 }
 
 function Calcular(){
+    if(listaNum == []){
+        document.alert('Insira primeiro os valores a serem calculados')
+    }
     var listaOrdem = listaNum.sort()
     var listaSoma = 0
     
