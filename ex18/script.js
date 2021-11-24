@@ -12,3 +12,5 @@ function adicionar(){
         window.alert('O número é inválido ou já está na lista!')
         }    
 }
+
+var quantidade = listaNum.lenght
