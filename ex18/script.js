@@ -3,7 +3,7 @@ var listaSoma = 0
 
 function Adicionar(){
     let numNovo = window.document.getElementById('numeroNovo').value
-    if (listaNum == [] || listaNum.indexOf(numNovo) == -1){
+    if (listaNum == [] || listaNum.indexOf(numNovo) == -1 || numNovo>100){
         listaNum.push(numNovo)
         //window.alert(`Foi adicionado o ${numNovo} na lista`)
         let item = document.createElement('option')
@@ -19,7 +19,7 @@ function Calcular(){
     var listaOrdem = listaNum.sort()
     var listaSoma = 0
     
-    var quantidade = (listaOrdem.slice(-1))
+    var quantidade = (listaOrdem)
     var menorNum = listaOrdem[0]
     var maiorNum = listaOrdem[quantidade.value]
     var mediaNum = listaSoma/quantidade
