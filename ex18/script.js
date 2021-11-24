@@ -1,11 +1,11 @@
 var listaNum = []
 function adicionar(){
     let numNovo = window.document.getElementById('numeroNovo').value
-    listaNum.push(numNovo)
-    /*if(numNovo == '' || listaNum.){
+    if (listaNum == [''] || listaNum.indexOf(numNovo) == -1){
         listaNum.push(numNovo)
-    } else {
-        window.alert("Número inválido ou já existente")
-    }*/
-    window.alert(`Foi adicionado o ${numNovo} na posição ${listaNum.indexOf(numNovo)}, a lista completa é ${listaNum}`)
+        window.alert(`Foi adicionado o ${numNovo} na lista`)
+    }else{
+        window.alert('O número é inválido ou já está na lista!')
+        }
+    }
 }
