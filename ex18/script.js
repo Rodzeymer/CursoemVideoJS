@@ -19,7 +19,7 @@ function Calcular(){
     var listaOrdem = listaNum.sort()
     var listaSoma = 0
     
-    var quantidade = (listaOrdem.length)
+    var quantidade = (listaOrdem.length)+1
     var menorNum = listaOrdem[0]
     var maiorNum = listaOrdem[1]
     var mediaNum = listaSoma/quantidade
