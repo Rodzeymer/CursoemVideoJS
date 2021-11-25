@@ -14,6 +14,7 @@ function Adicionar(){
         } else {
         window.alert('O número é inválido ou já está na lista!')
         }    
+    }
 }
 
 function Calcular(){
