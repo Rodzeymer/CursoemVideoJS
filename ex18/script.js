@@ -52,7 +52,7 @@ function Calcular(){
             console.log(`O valor a ser somado é ${valoresOrdem[index]}`)
         }
 
-        let media = soma/total
+        let media = soma/totalValores
 
 
         resultado.innerHTML=''
