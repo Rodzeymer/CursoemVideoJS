@@ -23,8 +23,10 @@ function inLista(n, l){
 
 function Adicionar(){
     if(isNumero(novoNum.value) && !inLista(novoNum.value, valores)){
-        window.alert('ok')
+        console.log('ok')
         valores.push(novoNum.value)
+        console.log(novoNum.value)
+        console.log(valores)
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
     }
