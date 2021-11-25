@@ -2,14 +2,14 @@ var listaNum = []
 var listaSoma = 0
 
 function Adicionar(){
-    let numNovo = window.document.getElementById('numeroNovo').value
-    if (listaNum == [] || listaNum.indexOf(numNovo) == -1 || numNovo < 100){
-        listaNum.push(numNovo)
+    let numNovo = Number(window.document.getElementById('numeroNovo'))
+    if (listaNum == [] || listaNum.indexOf(numNovo) == -1 || numNovo < 100){        
         //window.alert(`Foi adicionado o ${numNovo} na lista`)
         let item = document.createElement('option')
             item.text = numNovo
             item.value = `listaNum${numNovo}`
             numerosAdc.appendChild(item)
+            listaNum.push(numNovo)
     } else {
         window.alert('O número é inválido ou já está na lista!')
         }    
