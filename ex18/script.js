@@ -28,6 +28,7 @@ function Adicionar(){
         let item = document.createElement('option')
         item.text=`Valor ${novoNum.value} adicionado`
         listaNum.appendChild(item)
+        resultado.innerHTML =''
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
     }
@@ -42,7 +43,7 @@ function Calcular(){
         
         valoresOrdem = valores.sort()
         let totalValores = valoresOrdem.length
-        let maiorValor = valoresOrdem[totalValores]
+        let maiorValor = valoresOrdem[valoresOrdem.length - 1]
         let menorValor = valoresOrdem[0]
         let soma = 0
 
@@ -52,10 +53,10 @@ function Calcular(){
         let somaValores = soma
 
         resultado.innerHTML=''
-        resultado.innerHTML += `Ao todo temos ${totalValores} valores adicionados!`
-        resultado.innerHTML += `O maior valor é ${maiorValor}!`
-        resultado.innerHTML += `O menor valor é ${totalValores}!`
-        resultado.innerHTML += `A soma dos valores é ${somaValores}!`
+        resultado.innerHTML += `Ao todo temos ${totalValores} valores adicionados!<br>`
+        resultado.innerHTML += `O maior valor é ${maiorValor}!<br>`
+        resultado.innerHTML += `O menor valor é ${totalValores}!<br>`
+        resultado.innerHTML += `A soma dos valores é ${somaValores}!<br>`
 
     }
 }
