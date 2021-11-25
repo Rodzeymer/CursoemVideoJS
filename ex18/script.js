@@ -2,7 +2,8 @@ var listaNum = []
 var listaSoma = 0
 
 function Adicionar(){
-    let numNovo = window.document.getElementById('numeroNovo').value
+    let numNovo = window.document.getElementById('numeroNovo')
+    let numNovoValor = numNovo.value
     if (listaNum == [] || listaNum.indexOf(numNovo) == -1 || numNovo < 100){
         listaNum.push(numNovo)
         //window.alert(`Foi adicionado o ${numNovo} na lista`)
