@@ -44,9 +44,10 @@ function Calcular(){
         let totalValores = valoresOrdem.length
         let maiorValor = valoresOrdem[totalValores]
         let menorValor = valoresOrdem[0]
+        let soma = 0
 
         for (let index = 0; index <= valoresOrdem.length; index++) {
-            let soma = soma + valoresOrdem[index]
+            soma += valoresOrdem[index]
         }
         let somaValores = soma
 
