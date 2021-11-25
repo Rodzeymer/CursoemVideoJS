@@ -44,11 +44,11 @@ function Calcular(){
         let totalValores = valoresOrdem.length
         let maiorValor = valoresOrdem[totalValores]
         let menorValor = valoresOrdem[0]
-        let somaValores = soma
+
         for (let index = 0; index <= valoresOrdem.length; index++) {
             let soma = soma + valoresOrdem[index]
-            
         }
+        let somaValores = soma
 
         resultado.innerHTML=''
         resultado.innerHTML += `Ao todo temos ${totalValores} valores adicionados!`
