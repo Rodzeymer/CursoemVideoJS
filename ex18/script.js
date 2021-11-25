@@ -4,7 +4,7 @@ var listaSoma = 0
 function Adicionar(){
     let numNovo = window.document.getElementById('numeroNovo').value
     if (numNovo > 1 || numNovo <100){
-        if (numNovo == '' || listaNum.indexOf(numNovo) == -1){        
+        if (numNovo != '' || listaNum.indexOf(numNovo) == -1){        
             //window.alert(`Foi adicionado o ${numNovo} na lista`)
             let item = document.createElement('option')
                 item.text = numNovo
