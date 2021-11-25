@@ -31,4 +31,6 @@ function Adicionar(){
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
     }
+    novoNum.value=''
+    novoNum.focus()
 }
