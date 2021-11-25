@@ -3,14 +3,15 @@ var listaSoma = 0
 
 function Adicionar(){
     let numNovo = window.document.getElementById('numeroNovo').value
-    if (numNovo < 100 || listaNum == [] || listaNum.indexOf(numNovo) == -1){        
-        //window.alert(`Foi adicionado o ${numNovo} na lista`)
-        let item = document.createElement('option')
-            item.text = numNovo
-            item.value = `listaNum${numNovo}`
-            numerosAdc.appendChild(item)
-            listaNum.push(numNovo)
-    } else {
+    if (numNovo < 100){
+        if (listaNum == [] || listaNum.indexOf(numNovo) == -1){        
+            //window.alert(`Foi adicionado o ${numNovo} na lista`)
+            let item = document.createElement('option')
+                item.text = numNovo
+                item.value = `listaNum${numNovo}`
+                numerosAdc.appendChild(item)
+                listaNum.push(numNovo)
+        } else {
         window.alert('O número é inválido ou já está na lista!')
         }    
 }
