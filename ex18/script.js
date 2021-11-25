@@ -8,8 +8,8 @@ function Adicionar(){
         listaNum.push(numNovoValor)
         //window.alert(`Foi adicionado o ${numNovo} na lista`)
         let item = document.createElement('option')
-            item.text = numNovo
-            item.value = `listaNum${numNovo}`
+            item.text = numNovoValor
+            item.value = `listaNum${numNovoValor}`
             numerosAdc.appendChild(item)
     } else {
         window.alert('O número é inválido ou já está na lista!')
