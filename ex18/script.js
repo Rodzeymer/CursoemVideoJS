@@ -11,9 +11,11 @@ function Adicionar(){
                 item.value = `listaNum${numNovo}`
                 numerosAdc.appendChild(item)
                 listaNum.push(numNovo)
-        }
-        } else {
+        }else {
             window.alert('O número é inválido ou já está na lista!')  
+        } 
+    } else {
+        window.alert('O número é inválido ou já está na lista!')  
     }
 }
 
