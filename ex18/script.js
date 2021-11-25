@@ -39,9 +39,22 @@ function Calcular(){
     if (valores.length == 0){
         console.log("NÃO PODE")
     } else {
-let totalValores = valores.length
+        
+        valoresOrdem = valores.sort()
+        let totalValores = valoresOrdem.length
+        let maiorValor = valoresOrdem[totalValores]
+        let menorValor = valoresOrdem[0]
+        let somaValores = soma
+        for (let index = 0; index <= valoresOrdem.length; index++) {
+            let soma = soma + valoresOrdem[index]
+            
+        }
 
         resultado.innerHTML=''
         resultado.innerHTML += `Ao todo temos ${totalValores} valores adicionados!`
+        resultado.innerHTML += `O maior valor é ${maiorValor}!`
+        resultado.innerHTML += `O menor valor é ${totalValores}!`
+        resultado.innerHTML += `A soma dos valores é ${somaValores}!`
+
     }
 }
