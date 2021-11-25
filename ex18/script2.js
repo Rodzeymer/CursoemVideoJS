@@ -28,7 +28,7 @@ function Calcular(){
         
         var quantidade = (listaOrdem.value)
         var menorNum = listaOrdem[0]
-        var maiorNum = listaOrdem[Number(quantidade.value)]
+        var maiorNum = listaOrdem[Number(quantidade)]
         var mediaNum = listaSoma/quantidade
         for (let index = 0; index < quantidade; index++) {
             listaSoma = listaSoma + listaOrdem[index]        
