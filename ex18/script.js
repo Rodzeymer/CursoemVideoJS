@@ -57,7 +57,7 @@ function Calcular(){
         resultado.innerHTML += `Ao todo temos ${totalValores} valores adicionados!<br>`
         resultado.innerHTML += `O maior valor é ${maiorValor}!<br>`
         resultado.innerHTML += `O menor valor é ${menorValor}!<br>`
-        resultado.innerHTML += `A soma dos valores é ${soma.value}!<br>`
+        resultado.innerHTML += `A soma dos valores é ${Number(soma)}!<br>`
 
     }
 }
