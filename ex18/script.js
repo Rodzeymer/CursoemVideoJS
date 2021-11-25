@@ -22,7 +22,7 @@ function inLista(n, l){
 }
 
 function Adicionar(){
-    if(isNumero(novoNum.value) && !inLista(novoNum.value)){
+    if(isNumero(novoNum.value) && !inLista(novoNum.value, valores)){
         let item = document.createElement('option')
         item.text = numNovo
         item.value = `listaNum${numNovo}`
