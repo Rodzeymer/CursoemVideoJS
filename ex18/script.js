@@ -34,3 +34,14 @@ function Adicionar(){
     novoNum.value=''
     novoNum.focus()
 }
+
+function Calcular(){
+    if (valores.length == 0){
+        console.log("NÃO PODE")
+    } else {
+let totalValores = valores.length
+
+        resultado.innerHTML=''
+        resultado.innerHTML += `Ao todo temos ${totalValores} valores adicionados!`
+    }
+}
