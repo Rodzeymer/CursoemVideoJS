@@ -1,4 +1,4 @@
-let novoNum = document.querySelector('input#numeroNovo')
+let novoNum = document.querySelector('input#numeroNovo').value
 let listaNum = document.querySelector('select#numerosAdc')
 let resultado = document.querySelector('div#resultado')
 let valores = []
@@ -22,7 +22,7 @@ function inLista(n, l){
 }
 
 function Adicionar(){
-    if(isNumero(novoNum.value) && !inLista(novoNum.value, valores)){
+    if(isNumero(novoNum) && !inLista(novoNum, valores)){
         let item = document.createElement('option')
         item.text = novoNum
         item.value = `listaNum${novoNum}`
