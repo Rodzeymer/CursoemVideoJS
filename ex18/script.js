@@ -23,7 +23,11 @@ function inLista(n, l){
 
 function Adicionar(){
     if(isNumero(novoNum.value) && !inLista(novoNum.value)){
-
+        let item = document.createElement('option')
+        item.text = numNovo
+        item.value = `listaNum${numNovo}`
+        numerosAdc.appendChild(item)
+        listaNum.push(numNovo)
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
     }
