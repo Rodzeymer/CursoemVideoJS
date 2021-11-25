@@ -52,12 +52,15 @@ function Calcular(){
             console.log(`O valor a ser somado é ${valoresOrdem[index]}`)
         }
 
+        let media = soma/total
+
 
         resultado.innerHTML=''
         resultado.innerHTML += `Ao todo temos ${totalValores} valores adicionados!<br>`
         resultado.innerHTML += `O maior valor é ${maiorValor}!<br>`
         resultado.innerHTML += `O menor valor é ${menorValor}!<br>`
         resultado.innerHTML += `A soma dos valores é ${Number(soma)}!<br>`
+        resultado.innerHTML += `A média dos valores é ${Number(media)}!<br>`
 
     }
 }
