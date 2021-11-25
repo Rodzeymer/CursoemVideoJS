@@ -5,7 +5,7 @@ function Adicionar(){
     let numNovo = window.document.getElementById('numeroNovo')
     let numNovoValor = numNovo.value
     if (listaNum == [] || listaNum.indexOf(numNovo) == -1 || numNovo < 100){
-        listaNum.push(numNovo)
+        listaNum.push(numNovoValor)
         //window.alert(`Foi adicionado o ${numNovo} na lista`)
         let item = document.createElement('option')
             item.text = numNovo
