@@ -24,7 +24,7 @@ function inLista(n, l){
 function Adicionar(){
     if(isNumero(novoNum.value) && !inLista(novoNum.value, valores)){
         console.log('ok')
-        valores.push(novoNum.value)
+        valores.push(Number(novoNum.value))
         console.log(novoNum.value)
         console.log(valores)
     } else {
