@@ -1,4 +1,4 @@
-let novoNum = document.querySelector('input#numeroNovo').value
+let novoNum = document.querySelector('input#numeroNovo')
 let listaNum = document.querySelector('select#numerosAdc')
 let resultado = document.querySelector('div#resultado')
 let valores = []
@@ -22,7 +22,7 @@ function inLista(n, l){
 }
 
 function Adicionar(){
-    if(isNumero(novoNum) && !inLista(novoNum, valores)){
+    if(isNumero(novoNum) && !inLista(novoNum.value, valores)){
         window.alert('ok')
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
