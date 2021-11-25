@@ -28,7 +28,6 @@ function Adicionar(){
         let item = document.createElement('option')
         item.text=`Valor ${novoNum.value} adicionado`
         listaNum.appendChild(item)
-        resultado.innerHTML =''
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
     }
