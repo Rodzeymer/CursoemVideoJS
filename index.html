@@ -1,31 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Analisador de Números</title>
-    <link rel="stylesheet" href="ex18/style.css">
+    <title>Data de agora</title>
 </head>
 <body>
-    <header>
-        <h1>Super Analisador de Números</h1>
-    </header>
-    <section>
-        <div id="dados">
-            <p>Número (entre 1 e 100): 
-                <input type="number" name="inicio" id="numeroNovo">
-                <input type="button" value="Adicionar" onclick="Adicionar()"></p>
-        </div>
-        <div id="resultado">
-            <select name="numerosAdc" id="numerosAdc" size=5>
-                <option value=""></option>
-            </select>
-            <input type="button" value="Calcular" onclick="Calcular()"></p>        
-        </div>
-    </section>
-    <footer>@#ÉhNóisNaFita6</footer>
-    
-    <script src="ex18/script.js"></script>
+    <h2>Eventos JavaScript no HTML</h2>
+    <p>Aperte o botão para mostrará a data e hora de agora</p>
+    <button onclick="mostraData()">Que hora é essa?</button>
+    <script>
+        function mostraData(){
+            document.getElementById("demo").innnerHTML = Date();
+        }
+    </script>
+
+    <p id="demo"></p>
 </body>
-</html> 
+</html>
